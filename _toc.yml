@@ -1,5 +1,5 @@
 format: jb-book
 root: paper.md
 chapters:
-  - file: content/figure_1.ipynb
-  - file: content/figure_2.md
+  - file: content/intro.md
+  - file: content/Images10k_DataAnalysis.ipynb

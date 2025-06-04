@@ -9,53 +9,42 @@ project:
       repo: neurolibre/mystical-article # Production will override this.
       ref: HEAD # Production will override this.
   authors:
-    - name: Agah Karakuzu
-      orcid: 0000-0001-7283-271X
-      affiliations: polymtl; mhi
-      corresponding: true
-      email: agah.karakuzu@polymtl.ca
-      twitter: agahkarakuzu
-      equal_contributor: true
-      url: https://agah.dev
-      github: agahkarakuzu
+    - name: Lune P Bellec
+      orcid: 0000-0002-9111-0699
+      affiliations: udem
+      corresponding: false
+      email: lune.bellec@umontreal.ca
+      equal_contributor: false
+      url: https://github.com/pbellec
+      github: lbellec
       roles:
         - Conceptualization
         - Software
         - Writing – original draft
-    - name: Robo Neuro
-      affiliations: polymtl
-      equal_contributor: true
-      github: roboneurolibre
-      note: Roboneuro is a friendly publishing bot who fails the Turing test.
+    - name: Sara Barbu
+      affiliations: udem
+      equal_contributor: false
+      github: SaraBarbu
       roles:
-        - Project administration
+        - Software
         - Writing – review & editing
   affiliations:
-    - id: polymtl
-      institution: NeuroPoly Lab, Polytechnique Montreal
-      ror: https://ror.org/05f8d4e86
+    - id: udem
+      institution: Université de Montréąl
+      ror: https://ror.org/0161xgx34
       isni: 0000 0004 0435 3292
-      department: Electrical Engineering
-      address: 2500 Chem. de Polytechnique
+      department: Psychology
+      address: TBD
       city: Montreal
       region: Quebec
       country: Canada
-      postal_code: H3T 1J4
-      phone: 1 (514) 340-4711
-    - id: mhi
-      institution: Montreal Heart Institute
-      ror: https://ror.org/03vs03g62
-      isni: 0000 0000 8995 9090
-      address: 5000 Rue Belanger
-      city: Montreal
-      region: Quebec
-      country: Canada
-      postal_code: H1T 1C8
+      postal_code: TBD
+      phone: TBD
   keywords:
-    - reproducible publishing
-    - mystmd
-    - next-gen preprints
-  github: https://github.com/neurolibre/mystical-article
+    - image stimuli
+    - annotation
+    - crowdsourcing
+  github: https://github.com/courtois-neuromod/image10k.paper
   banner: static/banner.jpg
   venue: Neurolibre #Production will override this.
   subject: Living Preprint # Production will override this.
@@ -71,11 +60,9 @@ project:
   bibliography:
     - paper.bib
   resources:
-    - content/figure1.ipynb
-    - content/figure2.md
+    - content/Images10k_DataAnalysis.ipynb
 site:
-  template: article-theme # Or book-theme
+  template: book-theme # Or book-theme
   options:
     favicon: static/favicon.ico # Production will override this for branding.
     logo: static/logo.png # Production will override this for branding.
-    twitter: neurolibre
