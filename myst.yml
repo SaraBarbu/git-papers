@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: 'Demystifying MyST: The most powerful preprint authoring tool'
+  title: 'Images10k - an open, large, human-annotated dataset for biological and artificial visual processing'
   subtitle: A template for reproducible preprints
   thebe:
     binder:
@@ -60,6 +60,7 @@ project:
   bibliography:
     - paper.bib
   resources:
+    - content/intro.md
     - content/Images10k_DataAnalysis.ipynb
 site:
   template: book-theme # Or book-theme
