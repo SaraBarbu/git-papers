@@ -3,3 +3,4 @@ root: paper.md
 chapters:
   - file: content/intro.md
   - file: content/Images10k_DataAnalysis.ipynb
+  - file: content/fish

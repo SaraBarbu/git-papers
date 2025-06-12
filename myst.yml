@@ -22,6 +22,8 @@ project:
         - Software
         - Writing – original draft
     - name: Sara Barbu
+      orcid: 0009-0009-1808-375X      
+      email: sara.barbu@umontreal.ca       
       affiliations: udem
       equal_contributor: false
       github: SaraBarbu
@@ -34,12 +36,12 @@ project:
       ror: https://ror.org/0161xgx34
       isni: 0000 0004 0435 3292
       department: Psychology
-      address: TBD
+      address: 2900 Bd Édouard-Montpetit
       city: Montreal
       region: Quebec
       country: Canada
-      postal_code: TBD
-      phone: TBD
+      postal_code: H3T 1J4
+      phone: (514) 343-6111
   keywords:
     - image stimuli
     - annotation
@@ -67,3 +69,5 @@ site:
   options:
     favicon: static/favicon.ico # Production will override this for branding.
     logo: static/logo.png # Production will override this for branding.
+html:
+  copy_static_files: true
