@@ -67,7 +67,15 @@ project:
 site:
   template: book-theme # Or book-theme
   options:
+    root: paper
     favicon: static/favicon.ico # Production will override this for branding.
     logo: static/logo.png # Production will override this for branding.
 html:
-  copy_static_files: true
+  extra_css:
+    - _static/ custom.css
+config:
+  jupyter:
+    cell_tags:
+      remove_input: ["hide-input"]
+  execution:
+    execute_notebooks: "off"
